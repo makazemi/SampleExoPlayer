@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtTitle_speed_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="سرعت پخش فیلم"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"/>
+
+    <RadioGroup
+
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txtTitle_speed_dialog"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp">
+        <RadioButton
+            android:id="@+id/radio_btn_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.5X"
+            android:paddingStart="20dp"
+            />
+        <RadioButton
+            android:id="@+id/radio_btn_75"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.75X"
+            android:paddingStart="20dp"
+            />
+        <RadioButton
+            android:id="@+id/radio_btn_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.0X"
+            android:paddingStart="20dp"
+            />
+        <RadioButton
+            android:id="@+id/radio_btn_125"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.25X"
+            android:paddingStart="20dp"
+            />
+        <RadioButton
+            android:id="@+id/radio_btn_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.5X"
+            android:paddingStart="20dp"
+            />
+        <RadioButton
+            android:id="@+id/radio_btn_175"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.75X"
+            android:paddingStart="20dp"
+            />
+        <RadioButton
+            android:id="@+id/radio_btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.0X"
+            android:paddingStart="20dp"
+            />
+
+
+    </RadioGroup>
+</RelativeLayout>

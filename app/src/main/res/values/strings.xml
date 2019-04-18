@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">FullNewMyExoPlayer</string>
+    <string name="playback_channel_name">Playback</string>
+    <string name="download_channel_name">Download</string>
+
+    <string name="title_playback_speed_dialog">سرعت پخش فیلم</string>
+    <string-array name="speed_playback">
+        <item>0.5X</item>
+        <item>0.75X</item>
+        <item>1.0X</item>
+        <item>1.25X</item>
+        <item>1.5X</item>
+        <item>1.75X</item>
+        <item>2.0X</item>
+    </string-array>
+    <string name="speed_5">0.5X</string>
+    <string name="speed_75">0.75X</string>
+    <string name="speed_1">1.0X</string>
+    <string name="speed_125">1.25X</string>
+    <string name="speed_15">1.5X</string>
+    <string name="speed_175">1.75X</string>
+    <string name="speed_2">2.0X</string>
+
+
+    <string name="msg_simple_examples">Simple examples</string>
+    <string name="simple">Simple</string>
+    <string name="complex">Complex</string>
+    <string name="msg_complex_examples">Complex examples</string>
+
+    <string name="track_selection_audio">Audio</string>
+    <string name="track_selection_video">Video</string>
+    <string name="track_selection_text">Text</string>
+
+    <string name="error_unsupported_video">Media includes video tracks, but none are playable by this device</string>
+    <string name="error_unsupported_audio">Media includes audio tracks, but none are playable by this device</string>
+    <string name="plus_10">+10</string>
+    <string name="minus_10">-10</string>
+</resources>
